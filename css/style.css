@@ -21,7 +21,7 @@ body{
             align-items: center;
             position: fixed;
             z-index: 1;
-            height: 100px;
+            height: 15vh;
             width: 100%;
             padding: 0 40px;
         }
@@ -65,17 +65,25 @@ body{
                 .social a:hover{
                     color: #264DA0;
                 }
-        .texto-principal{
-            height: 600px;
+
+    .section{
+        background: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        padding: 0 120px;
+        margin-top: 100px;
+    }
+        .banner {
+            height: 90vh;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-            .headervideo{
+            .banner-video{
                 background: black;
                 margin-top: 100px;
                 width: 100%;
-                height: 100%;
+                height: 90%;
                 object-fit: cover;
                 position: absolute;
                 z-index: -1;
@@ -89,13 +97,6 @@ body{
                 text-align: center;
                 line-height: 1.6;
             }
-    .section{
-        background: #eeeeee;
-        display: flex;
-        flex-direction: column;
-        padding: 0 120px;
-        margin-top: 100px;
-    }
         .page-title{
             background: white;
             margin-top: 30px;
@@ -243,12 +244,12 @@ body{
     .footer{
         background: #FEF004;
         display: flex;
+        align-items: center;
         justify-content: center;
         position: relative;
-        height: 60px;
+        height: 10vh;
         width: 100%;
         bottom: 0px;
-        padding: 20px 0;
     }
         .foot{
             text-align: center;
