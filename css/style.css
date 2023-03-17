@@ -257,12 +257,12 @@ body{
                 color: black;
                 font-size: 14px;
                 font-weight: bold;
-                letter-spacing: 2px;
-                text-transform: uppercase;
                 text-decoration: none;
                 padding: 0 10px;
-                cursor: text;
             }
+                .foot a:hover {
+                    color: #264DA0;
+                }
 
 @media all and (max-width: 400px) {
     .menu{
